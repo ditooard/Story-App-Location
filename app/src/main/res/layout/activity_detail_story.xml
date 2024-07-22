@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        tools:context=".view.DetailStoryActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDetailStory"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="?android:textColorPrimary"></androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/tv_name_story"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarDetailStory"
+            tools:text="Nama User" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="@+id/tv_desc_story"
+            app:layout_constraintStart_toStartOf="@+id/tv_desc_story"
+            app:layout_constraintTop_toBottomOf="@+id/tv_desc_story"
+            app:srcCompat="@drawable/blank_photo" />
+
+        <TextView
+            android:id="@+id/tv_desc_story"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/tv_name_story"
+            app:layout_constraintStart_toStartOf="@+id/tv_name_story"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name_story"
+            tools:text="Deskripsi Story" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

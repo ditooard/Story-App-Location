@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyStoryApp</string>
+    <string name="title_login_page">LOGIN</string>
+    <string name="message_login_page">Sign in to your account</string>
+    <string name="title_signup_page">SIGN UP</string>
+    <string name="message_signup_page">Create a new account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_welcome_page">Welcome to Bangkit Academy 2024</string>
+    <string name="message_welcome_page">Created by Bangkit Academy Mobile Developer Cohort.</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="login_success">Login Successful</string>
+    <string name="title_story">Title</string>
+    <string name="desc_story">Description</string>
+    <string name="image">Image</string>
+    <string name="menu_1">Logout</string>
+    <string name="menu_2">Language</string>
+    <string name="menu_3">Maps</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="upload">Upload</string>
+    <string name="insert_photo">Insert Photo</string>
+    <string name="empty_image_warning">Please insert an image file first</string>
+    <string name="upload_success">Story uploaded successfully</string>
+    <string name="password_char">Password must be at least 8 characters long</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="add_location">Add your current location</string>
+    <string name="retry">Retry</string>
+</resources>
